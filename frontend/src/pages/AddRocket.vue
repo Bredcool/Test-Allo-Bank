@@ -93,7 +93,7 @@ export default defineComponent({
 
             try {
                 // add to Pinia store (local-only)
-                // const added = store.addRocket(payload)
+                const added = store.addRocket(payload)
                 // persist localRockets so it survives reload
                 persistLocalRockets()
 
